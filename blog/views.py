@@ -15,3 +15,6 @@ def index(request):
 
 
     return render(request,'index.html',{'proj':proj,'edu':edu})
+
+def Resume(request):
+    return render(request,'Resume.html')

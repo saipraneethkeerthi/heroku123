@@ -1,0 +1,199 @@
+{% load static %}
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_003{font-family:Times,serif;font-size:18.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Times,serif;font-size:18.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Times,serif;font-size:10.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Times,serif;font-size:10.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Times,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Times,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Times,serif;font-size:10.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Times,serif;font-size:10.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Times,serif;font-size:10.6px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Times,serif;font-size:10.6px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Times,serif;font-size:16.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Times,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Times,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Times,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Times,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:12.1px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Times,serif;font-size:10.0px;color:rgb(42,95,153);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Times,serif;font-size:10.0px;color:rgb(42,95,153);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Times,serif;font-size:10.0px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Times,serif;font-size:10.0px;color:rgb(42,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Times,serif;font-size:12.1px;color:rgb(54,95,145);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Times,serif;font-size:12.1px;color:rgb(54,95,145);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Times,serif;font-size:12.1px;color:rgb(54,95,145);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Times,serif;font-size:12.1px;color:rgb(54,95,145);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_030{font-family:Times,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Times,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="{% static 'Resume_bg/wz_jsgraphics.js' %}"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="{% static 'Resume_bg/background1.jpg' %}" width=595 height=841></div>
+<div style="position:absolute;left:15.84px;top:1.48px" class="cls_003"><span class="cls_003">KEERTHI  SAI  PRANEETH</span></div>
+<div style="position:absolute;left:15.84px;top:41.56px" class="cls_004"><span class="cls_004">BRANCH : </span><span class="cls_005">Electronics and Communication Engineering</span></div>
+<div style="position:absolute;left:15.84px;top:57.40px" class="cls_004"><span class="cls_004">PHONE NO. :</span><span class="cls_005">+91 7386330794</span></div>
+<div style="position:absolute;left:15.84px;top:73.26px" class="cls_004"><span class="cls_004">EMAIL : </span><span class="cls_005">saipranithkeerthi228@gmail.com</span></div>
+<div style="position:absolute;left:15.84px;top:89.10px" class="cls_004"><span class="cls_004">GIT PROFILE </span><span class="cls_006">: </span><span class="cls_007"> </span><A style="color: aqua;" HREF="https://github.com/saipraneethkeerthi">www.github.com/saipraneethkeerthi</A> </span></div>
+
+
+<div style="position:absolute;left:15.84px;top:104.10px" class="cls_004"><span class="cls_004">WEB PROFILE </span><span class="cls_006">: </span><span class="cls_007"> </span><A style="color: aqua;" HREF="http://keerthisaipraneeth.herokuapp.com/">keerthisaipraneeth.herokuapp.com</A> </span></div>
+
+
+<div style="position:absolute;left:28.56px;top:168.66px" class="cls_008"><span class="cls_008">OBJECTIVE</span></div>
+<div style="position:absolute;left:26.28px;top:207.78px" class="cls_002"><span class="cls_002">Seeking for an opportunity in a professional environment where my skills and abilities are admired, which</span></div>
+<div style="position:absolute;left:26.28px;top:221.58px" class="cls_002"><span class="cls_002">can contribute in the growth of an organization and personal skills as well.</span></div>
+<div style="position:absolute;left:24.60px;top:294.93px" class="cls_008"><span class="cls_008">EDUCATION</span></div>
+<div style="position:absolute;left:238.73px;top:341.73px" class="cls_010"><span class="cls_010">Institute</span></div>
+<div style="position:absolute;left:382.75px;top:341.73px" class="cls_010"><span class="cls_010">CGPA/Percentage</span></div>
+<div style="position:absolute;left:40.68px;top:367.29px" class="cls_012"><span class="cls_012">⚫</span><span class="cls_013"> </span><span class="cls_011"> Bachelor of Technology</span></div>
+<div style="position:absolute;left:238.73px;top:369.33px" class="cls_002"><span class="cls_002">VNR Vignana Jyothi</span></div>
+<div style="position:absolute;left:418.75px;top:369.33px" class="cls_010"><span class="cls_010">8.1</span></div>
+<div style="position:absolute;left:58.68px;top:383.13px" class="cls_009"><span class="cls_009">(</span><span class="cls_011">ECE</span><span class="cls_009">) (2018- 2021)</span></div>
+<div style="position:absolute;left:238.73px;top:383.13px" class="cls_002"><span class="cls_002">Institute of</span></div>
+<div style="position:absolute;left:238.73px;top:396.93px" class="cls_002"><span class="cls_002">Engineering and</span></div>
+<div style="position:absolute;left:238.73px;top:410.73px" class="cls_002"><span class="cls_002">Technology, Hyderabad</span></div>
+<div style="position:absolute;left:40.68px;top:440.75px" class="cls_012"><span class="cls_012">⚫</span><span class="cls_013"> </span><span class="cls_011"> Diploma</span></div>
+<div style="position:absolute;left:238.73px;top:440.75px" class="cls_002"><span class="cls_002">Government Polytechnic</span></div>
+<div style="position:absolute;left:418.75px;top:440.75px" class="cls_010"><span class="cls_010">83%</span></div>
+<div style="position:absolute;left:58.68px;top:454.55px" class="cls_009"><span class="cls_009">(</span><span class="cls_011">ECE</span><span class="cls_009">)( 2015 - 2018)</span></div>
+<div style="position:absolute;left:238.73px;top:454.55px" class="cls_002"><span class="cls_002">College, Warangal</span></div>
+<div style="position:absolute;left:40.68px;top:495.83px" class="cls_012"><span class="cls_012">⚫</span><span class="cls_013"> </span><span class="cls_011"> Class X</span></div>
+<div style="position:absolute;left:238.73px;top:495.83px" class="cls_002"><span class="cls_002">Ekashila Public</span></div>
+<div style="position:absolute;left:418.75px;top:495.83px" class="cls_010"><span class="cls_010">8.8</span></div>
+<div style="position:absolute;left:58.68px;top:509.63px" class="cls_009"><span class="cls_009">(2014-2015)</span></div>
+<div style="position:absolute;left:238.73px;top:509.63px" class="cls_002"><span class="cls_002">School, Jangaon</span></div>
+<div style="position:absolute;left:26.76px;top:540.23px" class="cls_008"><span class="cls_008">SKILLS</span></div>
+<div style="position:absolute;left:40.68px;top:583.55px" class="cls_012"><span class="cls_012">⚫</span><span class="cls_013"> </span><span class="cls_011"> Technical Skills</span></div>
+<div style="position:absolute;left:166.70px;top:585.59px" class="cls_010"><span class="cls_010">Programming</span></div>
+<div style="position:absolute;left:295.73px;top:585.59px" class="cls_010"><span class="cls_010">Scripting</span></div>
+<div style="position:absolute;left:418.75px;top:585.59px" class="cls_010"><span class="cls_010">Tools &</span></div>
+<div style="position:absolute;left:166.70px;top:599.39px" class="cls_010"><span class="cls_010">languages:</span></div>
+<div style="position:absolute;left:295.73px;top:599.39px" class="cls_010"><span class="cls_010">languages:</span></div>
+<div style="position:absolute;left:418.75px;top:599.39px" class="cls_010"><span class="cls_010">Frameworks</span></div>
+<div style="position:absolute;left:294.29px;top:631.10px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> HTML</span></div>
+<div style="position:absolute;left:165.14px;top:638.06px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> C Language</span></div>
+<div style="position:absolute;left:418.75px;top:638.06px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> MATLAB</span></div>
+<div style="position:absolute;left:294.29px;top:644.90px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> CSS</span></div>
+<div style="position:absolute;left:165.14px;top:651.86px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> C++</span></div>
+<div style="position:absolute;left:418.75px;top:651.86px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> NODE.JS</span></div>
+<div style="position:absolute;left:294.29px;top:658.70px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> JAVA SCRIPT</span></div>
+<div style="position:absolute;left:165.14px;top:665.66px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> PYTHON</span></div>
+<div style="position:absolute;left:418.75px;top:665.66px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> MICROSOFT VS CODE</span></div>
+<div style="position:absolute;left:294.29px;top:672.50px" class="cls_012"><span class="cls_012">➢</span><span class="cls_013"> </span><span class="cls_002"> DJANGO</span></div>
+<div style="position:absolute;left:40.68px;top:710.18px" class="cls_016"><span class="cls_016">⚫</span><span class="cls_017"> </span><span class="cls_011"> Personal Skills</span></div>
+<div style="position:absolute;left:195.41px;top:714.74px" class="cls_018"><span class="cls_018">O </span><span class="cls_002">Adaptability & Flexibility</span></div>
+<div style="position:absolute;left:195.41px;top:728.54px" class="cls_018"><span class="cls_018">O</span><span class="cls_002"> Creative Thinking</span></div>
+<div style="position:absolute;left:195.41px;top:742.34px" class="cls_018"><span class="cls_018">O</span><span class="cls_002"> Team Building</span></div>
+<div style="position:absolute;left:195.41px;top:756.14px" class="cls_018"><span class="cls_018">O  </span><span class="cls_002">Willingness to learn</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:851px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="{% static 'Resume_bg/background2.jpg' %}" width=595 height=841></div>
+<div style="position:absolute;left:24.48px;top:40.36px" class="cls_008"><span class="cls_008">PROJECTS</span></div>
+<div style="position:absolute;left:180.86px;top:100.74px" class="cls_002"><span class="cls_002">Automatic Railway Gate Control System is a useful project, which helps in</span></div>
+<div style="position:absolute;left:23.88px;top:103.50px" class="cls_011"><span class="cls_011">Automatic Railway</span></div>
+<div style="position:absolute;left:180.86px;top:114.54px" class="cls_002"><span class="cls_002">automatically opening and closing the railway gate based on detecting arrival</span></div>
+<div style="position:absolute;left:23.88px;top:117.30px" class="cls_011"><span class="cls_011">Gate System</span></div>
+<div style="position:absolute;left:23.88px;top:129.18px" class="cls_019"><span class="cls_019">(Jan  2018 -April  2018)</span></div>
+<div style="position:absolute;left:180.86px;top:128.34px" class="cls_002"><span class="cls_002">or departure of the train.</span></div>
+<div style="position:absolute;left:23.88px;top:140.70px" class="cls_020"><span class="cls_020">Software Team Member</span></div>
+<div style="position:absolute;left:178.58px;top:186.66px" class="cls_002"><span class="cls_002">In this project, a system is designed which is capable of automatically</span></div>
+<div style="position:absolute;left:24.12px;top:189.54px" class="cls_011"><span class="cls_011">Smart Automatic</span></div>
+<div style="position:absolute;left:178.58px;top:200.46px" class="cls_002"><span class="cls_002">deducting the amount of petrol dispensed from user card based on RFID</span></div>
+<div style="position:absolute;left:24.12px;top:203.34px" class="cls_011"><span class="cls_011">Petrol Pump using</span></div>
+<div style="position:absolute;left:178.58px;top:212.22px" class="cls_002"><span class="cls_002">technology.</span></div>
+<div style="position:absolute;left:24.12px;top:217.14px" class="cls_011"><span class="cls_011">RFID</span></div>
+<div style="position:absolute;left:24.12px;top:229.14px" class="cls_019"><span class="cls_019">(Sep 2019 -Nov 2019)</span></div>
+<div style="position:absolute;left:178.46px;top:263.49px" class="cls_002"><span class="cls_002">In this project, smart vehicle is implemented to monitor the system using</span></div>
+<div style="position:absolute;left:24.60px;top:272.49px" class="cls_011"><span class="cls_011">Smart Vehicle</span></div>
+<div style="position:absolute;left:178.46px;top:277.29px" class="cls_002"><span class="cls_002">GSM. If any crash occur, then SMS will be sent to the owner or to saved</span></div>
+<div style="position:absolute;left:24.60px;top:286.29px" class="cls_011"><span class="cls_011">Monitoring System</span></div>
+<div style="position:absolute;left:178.46px;top:291.09px" class="cls_002"><span class="cls_002">contacts. Most of the road accidents are happened due to alcohol drinking and</span></div>
+<div style="position:absolute;left:24.60px;top:298.17px" class="cls_019"><span class="cls_019">(Feb 2019 -April 2019)</span></div>
+<div style="position:absolute;left:178.46px;top:304.89px" class="cls_002"><span class="cls_002">not obeying the traffic rules. If toxic gas present in any AC cars, then toxic</span></div>
+<div style="position:absolute;left:178.46px;top:318.69px" class="cls_002"><span class="cls_002">gas sensor will sense the gas and the indication is displayed by using light</span></div>
+<div style="position:absolute;left:178.46px;top:330.45px" class="cls_002"><span class="cls_002">then the window door will be automatically opened.</span></div>
+<div style="position:absolute;left:30.48px;top:419.13px" class="cls_008"><span class="cls_008">INDUSTRIAL VISITS</span></div>
+<div style="position:absolute;left:30.48px;top:483.35px" class="cls_021"><span class="cls_021">Satish Dhawan</span></div>
+<div style="position:absolute;left:172.58px;top:481.31px" class="cls_010"><span class="cls_010">Satish  Dhawan  Space  Centre</span><span class="cls_002"> (</span><span class="cls_010">SDSC</span><span class="cls_002">)  or </span><span class="cls_010">Sriharikota  Range</span><span class="cls_002"> (</span><span class="cls_010">SHAR</span><span class="cls_002">)  is</span></div>
+<div style="position:absolute;left:30.48px;top:497.15px" class="cls_021"><span class="cls_021">Space</span></div>
+<div style="position:absolute;left:172.58px;top:495.11px" class="cls_002"><span class="cls_002">a </span>rocket </div>
+<div style="position:absolute;left:229.61px;top:495.11px" class="cls_002"><span class="cls_002"> </span><A>launch</A> </div>
+<div style="position:absolute;left:280.47px;top:495.11px" class="cls_002"><span class="cls_002"> </span><A>centre</A> operated</div>
+<div style="position:absolute;left:372.89px;top:495.11px" class="cls_002"><span class="cls_002">by    the </span><A>Indian    Space    Research</A> </div>
+<div style="position:absolute;left:172.58px;top:508.91px" class="cls_002"><span class="cls_002"> </span><A>Organisation</A> (ISRO). The Sriharikota facility is also the main launch base for</div>
+<div style="position:absolute;left:30.48px;top:510.11px" class="cls_021"><span class="cls_021">Centre</span><span class="cls_022"> (</span><span class="cls_021">SDSC</span><span class="cls_022">)</span></div>
+<div style="position:absolute;left:30.48px;top:523.07px" class="cls_019"><span class="cls_019">(February 2017)</span></div>
+<div style="position:absolute;left:172.58px;top:522.71px" class="cls_002"><span class="cls_002">India's sounding rockets. The centre is also home to India's largest solid</span></div>
+<div style="position:absolute;left:172.58px;top:536.51px" class="cls_002"><span class="cls_002">propellant space booster</span></div>
+<div style="position:absolute;left:302.22px;top:536.51px" class="cls_002"><span class="cls_002">(SPROB) and house the static test and evaluation</span></div>
+<div style="position:absolute;left:172.58px;top:550.31px" class="cls_002"><span class="cls_002">complex (STEX). The second vehicle assembly building (SVAB) is also done in</span></div>
+<div style="position:absolute;left:172.58px;top:564.11px" class="cls_002"><span class="cls_002">Sriharikota.</span></div>
+<div style="position:absolute;left:172.58px;top:607.58px" class="cls_010"><span class="cls_010">Bharat Sanchar Nigam Limited</span><span class="cls_002"> which provides mobile voice and internet</span></div>
+<div style="position:absolute;left:28.20px;top:610.82px" class="cls_011"><span class="cls_011">BSNL Broadband</span></div>
+<div style="position:absolute;left:172.58px;top:621.38px" class="cls_002"><span class="cls_002">services through its nationwide </span><A>telecommunications</A> network across India. It is</div>
+<div style="position:absolute;left:28.20px;top:624.62px" class="cls_011"><span class="cls_011">Centre</span></div>
+<div style="position:absolute;left:28.20px;top:636.62px" class="cls_019"><span class="cls_019">( March  2018)</span></div>
+<div style="position:absolute;left:172.58px;top:635.18px" class="cls_002"><span class="cls_002">the </span><A>largest wire line telecommunications</A> network company in India with more</div>
+<div style="position:absolute;left:172.58px;top:648.98px" class="cls_002"><span class="cls_002">than 60% market share and </span><A>fourth largest wireless telecommunications</A> operator.</div>
+<div style="position:absolute;left:176.18px;top:685.58px" class="cls_010"><span class="cls_010">Indian National Centre for Ocean Information Services</span><span class="cls_002"> (</span><span class="cls_010">INCOIS</span><span class="cls_002">) is an</span></div>
+<div style="position:absolute;left:28.20px;top:693.14px" class="cls_011"><span class="cls_011">INCOIS</span></div>
+<div style="position:absolute;left:176.18px;top:699.38px" class="cls_002"><span class="cls_002">autonomous organization of the </span><A>Government of India.</A> It is mandated to provide</div>
+<div style="position:absolute;left:28.20px;top:705.14px" class="cls_019"><span class="cls_019">(February 2018)</span></div>
+<div style="position:absolute;left:176.18px;top:713.18px" class="cls_002"><span class="cls_002">the best possible ocean information and advisory services to society, industry,</span></div>
+<div style="position:absolute;left:176.18px;top:726.98px" class="cls_002"><span class="cls_002">government agencies and the scientific community through sustained ocean</span></div>
+<div style="position:absolute;left:176.18px;top:740.78px" class="cls_002"><span class="cls_002">observations  and  constant  improvements  through  systematic  and  focussed</span></div>
+<div style="position:absolute;left:176.18px;top:754.58px" class="cls_002"><span class="cls_002">research.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:1702px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="{% static 'Resume_bg/background3.jpg' %}" width=595 height=841></div>
+<div style="position:absolute;left:25.68px;top:15.16px" class="cls_008"><span class="cls_008">WORKSHOP AND HACKATHON</span></div>
+<div style="position:absolute;left:27.48px;top:58.12px" class="cls_012"><span class="cls_012">•</span><span class="cls_013"> </span><span class="cls_002">  Participated in IOT Workshop conducted by WAC | 2k19 at IIT Hyderabad</span></div>
+<div style="position:absolute;left:27.48px;top:72.78px" class="cls_012"><span class="cls_012">•</span><span class="cls_013"> </span><span class="cls_002">  Participated in Software Hackathon conducted by Convergence | 2k19 at VNRVJIET</span></div>
+<div style="position:absolute;left:27.48px;top:87.42px" class="cls_012"><span class="cls_012">•</span><span class="cls_013"> </span><span class="cls_002">  Participated in AI Hackathon conducted by JHUB | 2k20 at IIT Sultanpur</span></div>
+<div style="position:absolute;left:29.76px;top:167.34px" class="cls_008"><span class="cls_008">ACHIEVEMENTS</span></div>
+<div style="position:absolute;left:27.48px;top:209.94px" class="cls_012"><span class="cls_012">•</span><span class="cls_013"> </span><span class="cls_002">  Won 2nd prize in convergence 2k18 at VNRVJIET</span></div>
+<div style="position:absolute;left:34.20px;top:271.05px" class="cls_008"><span class="cls_008">HOBBIES AND INTERESTS</span></div>
+<div style="position:absolute;left:37.80px;top:329.25px" class="cls_018"><span class="cls_018">O</span></div>
+<div style="position:absolute;left:45.24px;top:323.25px" class="cls_002"><span class="cls_002">Web designing</span></div>
+<div style="position:absolute;left:37.80px;top:343.05px" class="cls_018"><span class="cls_018">O</span></div>
+<div style="position:absolute;left:45.24px;top:337.05px" class="cls_002"><span class="cls_002">Watching web series</span></div>
+<div style="position:absolute;left:37.80px;top:356.85px" class="cls_018"><span class="cls_018">O</span></div>
+<div style="position:absolute;left:45.48px;top:350.85px" class="cls_002"><span class="cls_002">Reading books</span></div>
+<div style="position:absolute;left:30.48px;top:411.69px" class="cls_008"><span class="cls_008">DECLARATION</span></div>
+<div style="position:absolute;left:27.24px;top:455.15px" class="cls_002"><span class="cls_002">I do hereby declare that above particulars of information and facts stated are true, correct and complete to the</span></div>
+<div style="position:absolute;left:27.24px;top:468.95px" class="cls_002"><span class="cls_002">best of my knowledge and belief.</span></div>
+<div style="position:absolute;left:22.68px;top:601.07px" class="cls_027"><span class="cls_027">PLACE : </span><span class="cls_010">HYDERABAD</span></div>
+<div style="position:absolute;left:454.78px;top:603.11px" class="cls_030"><span class="cls_030">SIGNATURE</span></div>
+<div style="position:absolute;left:418.75px;top:615.02px" class="cls_029"><span class="cls_029">KEERTHI SAI PRANEETH</span></div>
+</div>
+
+</body>
+</html>
